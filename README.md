@@ -1,3 +1,3 @@
-# renamer-plugin
+# cf-annotations-plugin
 
-just playing around with the cf cli plugin interface
+Prototype access to CAPI annotations 

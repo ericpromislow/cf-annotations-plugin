@@ -1,10 +1,11 @@
 package main
 
 import (
-	"code.cloudfoundry.org/cli/plugin"
 	"fmt"
 	"os"
-	"github.com/zrob/annotations/scripts/annotations"
+
+	"code.cloudfoundry.org/cli/plugin"
+	"github.com/ericpromislow/cf-annotations-plugin/annotations"
 )
 
 type AnnotationsPlugin struct{}
@@ -33,7 +34,7 @@ func (c *AnnotationsPlugin) Run(cliConnection plugin.CliConnection, args []strin
 		return
 	}
 	if err != nil {
-		fmt.Fprintf(os.Stderr,"Annotations plugin error: %s\n", err)
+		fmt.Fprintf(os.Stderr, "Annotations plugin error: %s\n", err)
 	}
 }
 
