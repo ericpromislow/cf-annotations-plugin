@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"code.cloudfoundry.org/cli/plugin"
-	"github.com/ericpromislow/cf-annotations-plugin/annotations"
+	"github.com/ericpromislow/annotations/code/annotations"
 )
 
 type AnnotationsPlugin struct{}
